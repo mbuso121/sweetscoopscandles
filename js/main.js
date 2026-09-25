@@ -12,7 +12,7 @@
    ----------------------------------------------------------------- */
 const SITE_CONFIG = {
   WHATSAPP_NUMBER: "27607739974",
-  BUSINESS_EMAIL: "sweetscoopcandles@gmail.com",
+  BUSINESS_EMAIL: "shadesweetscoops@gmail.com",
   BRAND_NAME: "Shade's Sweet Scoops Candles",
   INSTAGRAM_HANDLE: "@shadessweetscoopscandles",
   SITE_URL: "https://sweetscoopcandles.co.za"

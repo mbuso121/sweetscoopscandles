@@ -11,8 +11,8 @@
    only, no "+" and no leading 0) and business email before launch.
    ----------------------------------------------------------------- */
 const SITE_CONFIG = {
-  WHATSAPP_NUMBER: "27XXXXXXXXX",
-  BUSINESS_EMAIL: "sweetsscoopcandles@gmail.com",
+  WHATSAPP_NUMBER: "27607739974",
+  BUSINESS_EMAIL: "sweetscoopcandles@gmail.com",
   BRAND_NAME: "Shade's Sweet Scoops Candles",
   INSTAGRAM_HANDLE: "@shadessweetscoopscandles",
   SITE_URL: "https://sweetscoopcandles.co.za"

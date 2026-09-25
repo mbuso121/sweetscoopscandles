@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product — Shade's Sweet Scoops Candles</title>
+<meta name="description" content="Handcrafted candle details, sizing, scent notes and burn time.">
+<link rel="canonical" href="https://sweetscoopcandles.co.za/product.html" id="canonicalLink">
+<meta property="og:type" content="product">
+<meta property="og:site_name" content="Shade's Sweet Scoops Candles">
+<meta property="og:title" content="Product — Shade's Sweet Scoops Candles" id="ogTitle">
+<meta property="og:description" content="Handcrafted candle details, sizing, scent notes and burn time." id="ogDescription">
+<meta property="og:image" content="https://sweetscoopcandles.co.za/images/products/whipped-scoop-vanilla-strawberry.jpg" id="ogImage">
+<meta property="og:url" content="https://sweetscoopcandles.co.za/product.html" id="ogUrl">
+<meta property="og:locale" content="en_ZA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Product — Shade's Sweet Scoops Candles" id="twitterTitle">
+<meta name="twitter:description" content="Handcrafted candle details, sizing, scent notes and burn time." id="twitterDescription">
+<meta name="twitter:image" content="https://sweetscoopcandles.co.za/images/products/whipped-scoop-vanilla-strawberry.jpg" id="twitterImage">
+<link rel="icon" href="images/logo.jpg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="shop">
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <img src="images/logo.jpg" alt="Shade's Sweet Scoops Candles logo" class="brand-logo" width="46" height="46">
+      <span class="brand-name">Shade&rsquo;s Sweet Scoops</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html" class="nav-link" data-nav="home">Home</a>
+      <a href="shop.html" class="nav-link" data-nav="shop">Shop</a>
+      <a href="about.html" class="nav-link" data-nav="about">About</a>
+      <a href="contact.html" class="nav-link" data-nav="contact">Contact</a>
+      <a href="faq.html" class="nav-link" data-nav="faq">FAQ</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="searchToggle" aria-label="Search products" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+      <a href="enquiry.html" class="icon-btn" aria-label="Enquiry Bag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l-1 12H7L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="badge-count" data-bag-count style="display:none;">0</span>
+      </a>
+      <a href="shop.html" class="btn btn-primary btn-sm shop-now-btn">Shop Now</a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="search-panel" id="searchPanel">
+    <div class="container search-panel-inner">
+      <input type="search" id="headerSearchInput" placeholder="Search candles, flavours, gift sets…" aria-label="Search products">
+      <button class="btn btn-primary btn-sm" id="headerSearchBtn">Search</button>
+      <button class="icon-btn" id="searchClose" aria-label="Close search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+    <a href="index.html" class="mobile-nav-link" data-nav="home">Home</a>
+    <a href="shop.html" class="mobile-nav-link" data-nav="shop">Shop</a>
+    <a href="about.html" class="mobile-nav-link" data-nav="about">About</a>
+    <a href="contact.html" class="mobile-nav-link" data-nav="contact">Contact</a>
+    <a href="faq.html" class="mobile-nav-link" data-nav="faq">FAQ</a>
+    <a href="enquiry.html" class="mobile-nav-link" data-nav="enquiry">Enquiry Bag (<span data-bag-count>0</span>)</a>
+    <a href="shop.html" class="btn btn-primary btn-block">Shop Now</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <div id="productDetailRoot">
+    <section style="padding-bottom:0;">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Home</a> / <a href="shop.html">Shop</a> / <span id="pdBreadcrumbName">Product</span></p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container product-detail">
+        <div class="pd-gallery">
+          <div class="pd-gallery-main">
+            <img id="pdMainImage" src="" alt="" width="800" height="1000">
+          </div>
+          <div class="pd-gallery-thumbs" id="pdThumbs"></div>
+        </div>
+
+        <div class="pd-info">
+          <p class="pd-flavor" id="pdFlavor"></p>
+          <h1 class="pd-title" id="pdTitle"></h1>
+          <p class="pd-price" id="pdPrice"></p>
+          <p class="pd-availability" id="pdAvailability"></p>
+          <p class="pd-desc" id="pdDesc"></p>
+
+          <dl class="pd-specs">
+            <div class="pd-spec"><dt>Size</dt><dd id="specSize"></dd></div>
+            <div class="pd-spec"><dt>Scent</dt><dd id="specScent"></dd></div>
+            <div class="pd-spec"><dt>Burn Time</dt><dd id="specBurn"></dd></div>
+            <div class="pd-spec"><dt>Materials</dt><dd id="specMaterials"></dd></div>
+          </dl>
+
+          <div class="form-row">
+            <label for="pdQtyInput">Quantity</label>
+            <div class="qty-selector">
+              <button type="button" id="pdQtyMinus" aria-label="Decrease quantity">&minus;</button>
+              <input type="number" id="pdQtyInput" value="1" min="1" max="20" aria-label="Quantity">
+              <button type="button" id="pdQtyPlus" aria-label="Increase quantity">+</button>
+            </div>
+          </div>
+
+          <div class="pd-actions-row">
+            <button type="button" class="btn btn-primary" id="pdAddToBag">Add to Enquiry</button>
+            <a href="enquiry.html" class="btn btn-secondary">View Enquiry Bag</a>
+          </div>
+
+          <div class="pd-secondary-actions">
+            <a href="#" class="btn btn-whatsapp btn-sm" id="pdAskAbout" data-whatsapp-link>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.02c-.24.68-1.4 1.31-1.93 1.36-.5.05-.98.23-3.29-.7-2.79-1.13-4.58-3.94-4.72-4.13-.14-.19-1.13-1.5-1.13-2.86 0-1.36.71-2.03.97-2.3.24-.26.53-.32.7-.32h.5c.16 0 .38-.03.58.44.24.57.8 1.96.87 2.1.07.15.11.32.02.51-.09.19-.14.31-.28.47-.14.16-.29.36-.42.48-.14.14-.28.29-.12.57.16.28.71 1.17 1.53 1.9 1.05.94 1.94 1.23 2.22 1.37.28.14.44.12.61-.07.16-.19.68-.79.87-1.06.19-.27.37-.22.62-.13.26.09 1.63.77 1.91.91.28.14.47.21.54.33.07.12.07.68-.17 1.36Z"/></svg>
+              Ask About This Product
+            </a>
+            <a href="contact.html" class="btn btn-secondary btn-sm">Contact Us</a>
+          </div>
+
+          <p class="pd-note">All candles are made to order in small batches. Once you send your enquiry, we&rsquo;ll confirm the final price, timing and delivery or collection details with you directly — no online payment is needed.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt">
+      <div class="container">
+        <div class="section-head related-heading">
+          <span class="eyebrow">You might also like</span>
+          <h2>More From This Collection</h2>
+        </div>
+        <div class="product-grid" id="relatedGrid"></div>
+      </div>
+    </section>
+  </div>
+
+  <div id="productNotFound" class="not-found" style="display:none;">
+    <div class="container">
+      <h1>We couldn&rsquo;t find that candle</h1>
+      <p>It may have been renamed or is no longer part of the collection.</p>
+      <a href="shop.html" class="btn btn-primary">Back to Shop</a>
+    </div>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="images/logo.jpg" alt="Shade's Sweet Scoops Candles logo" class="footer-logo" width="48" height="48">
+      <p>Fun, creative, ice-cream-inspired candles — handmade in small batches to bring a smile.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Instagram" data-instagram-link>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 8h-2a2 2 0 0 0-2 2v2H9v3h2v7h3v-7h2.2l.3-3H14v-1.5c0-.6.4-1 1-1h1.5V8Z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+    <div class="footer-col">
+      <h3>Customer Care</h3>
+      <a href="faq.html">FAQs</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms &amp; Conditions</a>
+    </div>
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <a href="mailto:sweetsscoopcandles@gmail.com" data-email-link>sweetsscoopcandles@gmail.com</a>
+      <a href="#" data-whatsapp-link data-whatsapp-message="Hi! I'd like to get in touch.">WhatsApp Us</a>
+      <span>Mon&ndash;Sat, 9am&ndash;5pm SAST</span>
+    </div>
+    <div class="footer-col footer-newsletter">
+      <h3>Join Our Community</h3>
+      <p style="font-size:0.88rem;color:rgba(251,243,231,0.65);margin-bottom:0.8rem;">New collections, offers and updates, straight to your inbox.</p>
+      <form class="footer-newsletter-form" id="footerNewsletterForm" novalidate>
+        <input type="email" placeholder="Your email address" aria-label="Email address" required>
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="form-msg" id="footerNewsletterMsg"></p>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <p>&copy; <span id="footerYear">2026</span> Shade&rsquo;s Sweet Scoops Candles. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/products.js"></script>
+<script src="js/main.js"></script>
+<script src="js/product.js"></script>
+</body>
+</html>

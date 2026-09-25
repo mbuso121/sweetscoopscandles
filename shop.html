@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop — Shade's Sweet Scoops Candles</title>
+<meta name="description" content="Browse handcrafted whipped and scoop candles, gift sets and custom orders. Add to your enquiry bag and order via WhatsApp or email.">
+<link rel="canonical" href="https://sweetscoopcandles.co.za/shop.html" id="canonicalLink">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Shade's Sweet Scoops Candles">
+<meta property="og:title" content="Shop — Shade's Sweet Scoops Candles" id="ogTitle">
+<meta property="og:description" content="Browse handcrafted whipped and scoop candles, gift sets and custom orders. Add to your enquiry bag and order via WhatsApp or email." id="ogDescription">
+<meta property="og:image" content="https://sweetscoopcandles.co.za/images/products/whipped-scoop-vanilla-strawberry.jpg" id="ogImage">
+<meta property="og:url" content="https://sweetscoopcandles.co.za/shop.html" id="ogUrl">
+<meta property="og:locale" content="en_ZA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Shop — Shade's Sweet Scoops Candles" id="twitterTitle">
+<meta name="twitter:description" content="Browse handcrafted whipped and scoop candles, gift sets and custom orders. Add to your enquiry bag and order via WhatsApp or email." id="twitterDescription">
+<meta name="twitter:image" content="https://sweetscoopcandles.co.za/images/products/whipped-scoop-vanilla-strawberry.jpg" id="twitterImage">
+<link rel="icon" href="images/logo.jpg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="shop">
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <img src="images/logo.jpg" alt="Shade's Sweet Scoops Candles logo" class="brand-logo" width="46" height="46">
+      <span class="brand-name">Shade&rsquo;s Sweet Scoops</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html" class="nav-link" data-nav="home">Home</a>
+      <a href="shop.html" class="nav-link" data-nav="shop">Shop</a>
+      <a href="about.html" class="nav-link" data-nav="about">About</a>
+      <a href="contact.html" class="nav-link" data-nav="contact">Contact</a>
+      <a href="faq.html" class="nav-link" data-nav="faq">FAQ</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="searchToggle" aria-label="Search products" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+      <a href="enquiry.html" class="icon-btn" aria-label="Enquiry Bag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l-1 12H7L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="badge-count" data-bag-count style="display:none;">0</span>
+      </a>
+      <a href="shop.html" class="btn btn-primary btn-sm shop-now-btn">Shop Now</a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="search-panel" id="searchPanel">
+    <div class="container search-panel-inner">
+      <input type="search" id="headerSearchInput" placeholder="Search candles, flavours, gift sets…" aria-label="Search products">
+      <button class="btn btn-primary btn-sm" id="headerSearchBtn">Search</button>
+      <button class="icon-btn" id="searchClose" aria-label="Close search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+    <a href="index.html" class="mobile-nav-link" data-nav="home">Home</a>
+    <a href="shop.html" class="mobile-nav-link" data-nav="shop">Shop</a>
+    <a href="about.html" class="mobile-nav-link" data-nav="about">About</a>
+    <a href="contact.html" class="mobile-nav-link" data-nav="contact">Contact</a>
+    <a href="faq.html" class="mobile-nav-link" data-nav="faq">FAQ</a>
+    <a href="enquiry.html" class="mobile-nav-link" data-nav="enquiry">Enquiry Bag (<span data-bag-count>0</span>)</a>
+    <a href="shop.html" class="btn btn-primary btn-block">Shop Now</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="page-banner">
+    <div class="container">
+      <span class="eyebrow">The full range</span>
+      <h1>Shop the Collection</h1>
+      <p>Every candle is made to order in small batches. Add anything you like to your Enquiry Bag, then send it through on WhatsApp or email — we&rsquo;ll confirm pricing, timing and delivery directly with you.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="container">
+
+      <div class="tier-strip" id="tierStrip"></div>
+
+      <div class="shop-controls">
+        <div class="category-tabs" id="categoryTabs"></div>
+        <div class="shop-tools">
+          <input type="search" class="shop-search" id="shopSearchInput" placeholder="Search products…" aria-label="Search products">
+          <select class="shop-sort" id="shopSortSelect" aria-label="Sort products">
+            <option value="featured">Featured</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="name-asc">Name: A–Z</option>
+          </select>
+        </div>
+      </div>
+
+      <p class="results-meta" id="shopResultsMeta"></p>
+
+      <div class="product-grid" id="shopProductGrid"></div>
+
+      <div class="empty-state" id="shopEmptyState" style="display:none;">
+        <h3>No candles match your search</h3>
+        <p>Try a different flavour, style or clear your filters to see everything we make.</p>
+        <button type="button" class="btn btn-primary" onclick="window.resetShopFilters()">Clear Filters</button>
+      </div>
+
+      <div class="custom-panel" id="shopCustomPanel" style="display:none;">
+        <div>
+          <span class="eyebrow">Made for the occasion</span>
+          <h2>Request a Custom Order</h2>
+          <p style="color:var(--choc-soft);margin-top:var(--sp-2);">Tell us the occasion, the flavours and how many you need — we&rsquo;ll put a design and a price together for you.</p>
+          <ul class="custom-panel-list">
+            <li>Wedding candles &amp; favours</li>
+            <li>Corporate gifts</li>
+            <li>Birthday gifts</li>
+            <li>Events &amp; celebrations</li>
+            <li>Bulk orders</li>
+            <li>Personalised candles</li>
+          </ul>
+          <div class="custom-panel-actions">
+            <a href="#" class="btn btn-whatsapp" data-whatsapp-link data-whatsapp-message="Hi! I'd like to request a custom candle order. Occasion: / Flavours: / Quantity: / Date needed:">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.02c-.24.68-1.4 1.31-1.93 1.36-.5.05-.98.23-3.29-.7-2.79-1.13-4.58-3.94-4.72-4.13-.14-.19-1.13-1.5-1.13-2.86 0-1.36.71-2.03.97-2.3.24-.26.53-.32.7-.32h.5c.16 0 .38-.03.58.44.24.57.8 1.96.87 2.1.07.15.11.32.02.51-.09.19-.14.31-.28.47-.14.16-.29.36-.42.48-.14.14-.28.29-.12.57.16.28.71 1.17 1.53 1.9 1.05.94 1.94 1.23 2.22 1.37.28.14.44.12.61-.07.16-.19.68-.79.87-1.06.19-.27.37-.22.62-.13.26.09 1.63.77 1.91.91.28.14.47.21.54.33.07.12.07.68-.17 1.36Z"/></svg>
+              Request via WhatsApp
+            </a>
+            <a href="#" class="btn btn-secondary" data-mailto-link data-mail-subject="Custom Order Request - Shade's Sweet Scoops Candles" data-mail-body="Occasion: %0AFlavours: %0AQuantity: %0ADate needed: %0AAdditional notes: ">Request via Email</a>
+          </div>
+        </div>
+        <div class="collection-card-media" style="border-radius:var(--radius-md);overflow:hidden;box-shadow:var(--shadow-soft);">
+          <img src="images/lifestyle/variety-stand.jpg" alt="Assorted custom candle styles on a tiered stand" loading="lazy" width="500" height="400">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="images/logo.jpg" alt="Shade's Sweet Scoops Candles logo" class="footer-logo" width="48" height="48">
+      <p>Fun, creative, ice-cream-inspired candles — handmade in small batches to bring a smile.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Instagram" data-instagram-link>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 8h-2a2 2 0 0 0-2 2v2H9v3h2v7h3v-7h2.2l.3-3H14v-1.5c0-.6.4-1 1-1h1.5V8Z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+    <div class="footer-col">
+      <h3>Customer Care</h3>
+      <a href="faq.html">FAQs</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms &amp; Conditions</a>
+    </div>
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <a href="mailto:sweetsscoopcandles@gmail.com" data-email-link>sweetsscoopcandles@gmail.com</a>
+      <a href="#" data-whatsapp-link data-whatsapp-message="Hi! I'd like to get in touch.">WhatsApp Us</a>
+      <span>Mon&ndash;Sat, 9am&ndash;5pm SAST</span>
+    </div>
+    <div class="footer-col footer-newsletter">
+      <h3>Join Our Community</h3>
+      <p style="font-size:0.88rem;color:rgba(251,243,231,0.65);margin-bottom:0.8rem;">New collections, offers and updates, straight to your inbox.</p>
+      <form class="footer-newsletter-form" id="footerNewsletterForm" novalidate>
+        <input type="email" placeholder="Your email address" aria-label="Email address" required>
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="form-msg" id="footerNewsletterMsg"></p>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <p>&copy; <span id="footerYear">2026</span> Shade&rsquo;s Sweet Scoops Candles. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/products.js"></script>
+<script src="js/main.js"></script>
+<script src="js/shop.js"></script>
+</body>
+</html>

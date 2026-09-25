@@ -22,7 +22,7 @@ const SITE_CONFIG = {
 /* -----------------------------------------------------------------
    CART — the Enquiry Bag, persisted to localStorage.
    Shape stored: [{ id, qty }]
-   ----------------------------------------------------------------- */
+   ---------------------------------------------------------------- */
 const Cart = (function(){
   const STORAGE_KEY = "shades_enquiry_bag";
 

@@ -6,7 +6,7 @@
    ================================================================= */
 
 /* -----------------------------------------------------------------
-   SITE CONFIG — the only two places these values live.
+   SITE CONFIG: the only two places these values live.
    Replace with the real WhatsApp number (international format, digits
    only, no "+" and no leading 0) and business email before launch.
    ----------------------------------------------------------------- */
@@ -20,7 +20,7 @@ const SITE_CONFIG = {
 };
 
 /* -----------------------------------------------------------------
-   CART — the Enquiry Bag, persisted to localStorage.
+   CART: the Enquiry Bag, persisted to localStorage.
    Shape stored: [{ id, qty }]
    ---------------------------------------------------------------- */
 const Cart = (function(){
@@ -368,7 +368,7 @@ function wireNewsletterForm(formEl, msgEl){
       return;
     }
     if(msgEl){
-      msgEl.textContent = "Thanks for joining — keep an eye on your inbox.";
+      msgEl.textContent = "Thanks for joining, keep an eye on your inbox.";
       msgEl.className = "form-msg success";
     }
     formEl.reset();

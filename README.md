@@ -17,7 +17,7 @@ this is the only place these values live:
 ```js
 const SITE_CONFIG = {
   WHATSAPP_NUMBER: "27XXXXXXXXX", // international format, digits only, no "+" or leading 0
-  BUSINESS_EMAIL: "sweetsscoopcandles@gmail.com",
+  BUSINESS_EMAIL: "shadesweetscoops@gmail.com",
   BRAND_NAME: "Shade's Sweet Scoops Candles",
   INSTAGRAM_HANDLE: "@shadessweetscoopscandles"
 };
@@ -108,7 +108,7 @@ file upload.
 4. Visit **https://sweetscoopcandles.co.za/** — the site should load immediately,
    no further setup needed. The domain and contact email are already
    configured correctly throughout the site (see below).
-5. This site's email is `sweetsscoopcandles@gmail.com`, a Gmail inbox, so no
+5. This site's email is `shadesweetscoops@gmail.com`, a Gmail inbox, so no
    email hosting setup is needed on Hostinger for it to work — every email
    link on the site already opens that address. If that ever changes, update
    `BUSINESS_EMAIL` in `js/main.js` — it is the single source of truth for
@@ -117,7 +117,7 @@ file upload.
 ### Domain and email — already configured
 
 The live domain (`https://sweetscoopcandles.co.za`) and the business email
-(`sweetsscoopcandles@gmail.com`) are set throughout the site: in every page's
+(`shadesweetscoops@gmail.com`) are set throughout the site: in every page's
 canonical link, Open Graph tags, the homepage's structured data, `sitemap.xml`,
 `robots.txt`, the footer, and every "Ask About This Product" / contact link.
 If either one ever changes again, there are exactly two places to edit:
